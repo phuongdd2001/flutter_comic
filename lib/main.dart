@@ -48,9 +48,9 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
       ),
       routes: {
-        '/chapters': (context) => const ChapterScreen()
+        '/chapters': (context) => const ChapterScreen(),
       },
-      debugShowCheckedModeBanner: false,
+      // debugShowCheckedModeBanner: false,
       home: MyHomePage(title: 'Comic Reader', app: app),
     );
   }
